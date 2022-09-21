@@ -41,6 +41,7 @@ from . import models
 
 KEPT_EVENTS = [
     "a-",
+    "b-",
     "b-m-p",
     "b-r-f-h-c",
     "u-d-c",
