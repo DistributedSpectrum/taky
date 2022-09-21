@@ -1,8 +1,5 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
 setup(
     name="taky",
     python_requires=">=3.6",
@@ -20,9 +17,7 @@ setup(
         "redis",
     ],
     description="A simple TAK server and COT router",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/tkuester/taky",
+    url="https://github.com/DistributedSpectrum/taky",
     packages=find_packages(),
     test_suite="tests",
     include_package_data=True,
